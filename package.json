@@ -1,0 +1,14 @@
+{
+  "name": "electron-sandbox",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "package": "./node_modules/.bin/electron-packager .  --platform=darwin --arch=x64 --out ./build/FioriDemo --version 1.4.12 --overwrite",
+    "package-win": "./node_modules/.bin/electron-packager .  --platform=win32 --arch=x64 --out ./build/FioriDemo --version 1.4.12 --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^1.4.12",
+    "electron-packager": "^8.4.0"
+  }
+}
